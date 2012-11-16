@@ -32,7 +32,7 @@ int main(int argc, char **argv){
 	 struct sockaddr_in peer;
 	 SOCKET s;
 	 int porta, peerlen, rc, i,taxa, npacotes;
-	 char ip[16], buffer[750];
+	 char ip[16], buffer[1250];
 	 
 #ifdef _WIN32
 	 WSADATA wsaData;
